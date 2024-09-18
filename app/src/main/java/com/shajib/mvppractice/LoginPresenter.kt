@@ -8,9 +8,7 @@ package com.shajib.mvppractice
 
 //Presenter: Middle man between View and Model
 
-// Presenter takes the view and model as parameter
-// and taking input (emailOrUsername, password) from view and passing it to model for login
-// and again passing the result to view
+// Presenter takes the view and model as parameter and taking input (emailOrUsername, password) from view and passing it to model for login and again passing the result to view
 
 //summary: view (emailOrUsername, password) -> presenter -> model (login validation) -> presenter -> view (result)
 class LoginPresenter(
